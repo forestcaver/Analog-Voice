@@ -1,6 +1,7 @@
 # Analog-Voice
-This repository will hold my analog voice modules
-Currently, there is a 3320-based lpf and a 3340-based vco
+This repository will hold my analog voice modules.
+
+Currently, there is a 3320-based lpf and a 3340-based vco.
 Both prototypes work well. However I have yet to build the (hopefully) final versions.
 For both of these modules, I have taken inspiration and designs from TINRS, Mutable Instruments and the datasheets for both the Alfa chips and the original CEM chips.
 
