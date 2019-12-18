@@ -9,6 +9,7 @@ Notes - 3340:
 
 ![3340 vco](https://github.com/forestcaver/Analog-Voice/blob/master/3340_vco.jpg)
 
+8hp
 The 3340 soft sync only works on a falling edge so a ramp waveform is ideal eg /| (and not |\ ). Hard sync works on rise and fall. The sync switch is an on-off-on switch (centre position turns off sync)
 The 3340 fm knob is an attenuverter. The fm switch selects between exp fm (dc coupled) and lin fm (ac coupled). It's an on-off-on switch so the centre position turns off fm (handy for wiggling). The lin fm is ideal for audio rate modulation.
 The 3340 pwm input takes 0-5v for min to max effect. The pwm pot is an attenuator, pwm is added to the pw pot.
@@ -20,6 +21,7 @@ Notes - 3320 lpf:
 
 ![3320 lpf](https://github.com/forestcaver/Analog-Voice/blob/master/3320_lpf.jpg)
 
+4hp
 4-pole (24db/oct lpf)
 The fm knob is an attenuverter
 The 3320 has quite an aggressive resonance which kicks in at about 1/3 of the turn of the pot. You can easily adjust this by using different values for r25. One technique to find what you like could be to wire a 100k pot to the two pads, play with the module and set the resonance how you want, then desolder, read the resistance and solder a resistor of that value. You can refer to the resonance curve in the datasheet as well to see the response curve. I like it quite aggressive and have chosen about a 50k (ie 49.9k) resistor to get full range of resonance.
