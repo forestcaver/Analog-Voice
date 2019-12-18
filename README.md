@@ -10,7 +10,7 @@ Notes - 3340:
 ![3340 vco](https://github.com/forestcaver/Analog-Voice/blob/master/3340_vco.jpg)
 
 The 3340 soft sync only works on a falling edge so a ramp waveform is ideal eg /| (and not |\ ). Hard sync works on rise and fall. The sync switch is an on-off-on switch (centre position turns off sync)
-The 3340 fm knob is an attenuverter. The fm switch selects between exp fm (dc coupled) and lin fm (ac coupled). The lin fm is ideal for audio rate modulation.
+The 3340 fm knob is an attenuverter. The fm switch selects between exp fm (dc coupled) and lin fm (ac coupled). It's an on-off-on switch so the centre position turns off fm (handy for wiggling). The lin fm is ideal for audio rate modulation.
 The 3340 pwm input takes 0-5v for min to max effect. The pwm pot is an attenuator, pwm is added to the pw pot.
 The outputs of the 3340 are all normalised to just below 10v p-p, all outputs are bipolar.
 Calibration is as per the cem3340 datasheet. ie set v/oct scaling, then do the hi-osc adjustment if necessary.
