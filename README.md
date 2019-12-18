@@ -45,6 +45,6 @@ Calibration - turn resonance up to self-oscillation and adjust the tracking to g
 - dual vca
 - envelope generator (dusg)
 - vcadsr
-- tzfm 3340 vco (currently being breadboarded0
+- tzfm 3340 vco (currently being breadboarded)
 
 Licence: CC-BY-SA 4.0
