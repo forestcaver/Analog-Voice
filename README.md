@@ -41,8 +41,8 @@ Calibration - turn resonance up to self-oscillation and adjust the tracking to g
 - - - -
 
 ## Planned Modules ##
-- lpg (awaiting boards for testing)
-- 4hp 24db/oct hpf
+- lpg (** awaiting boards for testing **)
+- 4hp 24db/oct hpf (** awaiting boards for testing **)
 - vca (3360)
 - envelope generator (dusg)
 - vcadsr (3310)
