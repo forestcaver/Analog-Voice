@@ -41,14 +41,20 @@ Calibration - turn resonance up to self-oscillation and adjust the tracking to g
 - - - -
 
 ## Planned Modules ##
+### Testing ###
 - lpg (** DONE - awaiting boards for testing **)
 - 4hp 24db/oct hpf (** DONE - awaiting boards for testing **)
+- headphone amp (** DONE - awaiting boards for testing **)
+
+### In Design and Prototyping ###
 - vca (3360)
-- envelope generator (dusg)
 - vcadsr (3310)
-- Roland a100m adsr
-- quad adsr (3310)
-- headphone amp
+- a100m adsr
 - tzfm 3340 vco (currently being breadboarded)
+
+### Planned ###
+- envelope generator (dusg)
+- quad adsr (3310)
+
 
 Licence: CC-BY-SA 4.0
