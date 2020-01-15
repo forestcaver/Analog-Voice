@@ -43,11 +43,21 @@ Calibration - turn resonance up to self-oscillation and adjust the tracking to g
 
 - - - -
 
+## Phones (Headphone Amp) ##
+
+![Phones](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_Phones.jpg)
+
+NJM4556 based headphone amp. This is essentially the power section from the nwavguy o2 headphone amp. It has
+a very low output impedance (~1 ohm) so can drive even low impedance headphones. It can deliver a high power
+(utilising two sections of the njm4556 per channel) so can drive 600 ohm impedance headphones with no problem.
+There is a high pass filter on the input to block dc.
+
+- - - -
+
 ## Planned Modules ##
 ### Testing ###
 - lpg (** DONE - awaiting boards for testing **)
 - 4hp 24db/oct hpf (** DONE - awaiting boards for testing **)
-- headphone amp (** DONE - awaiting boards for testing **)
 
 ### In Design and Prototyping ###
 - vca (3360)
