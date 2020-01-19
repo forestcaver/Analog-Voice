@@ -47,6 +47,8 @@ Calibration - turn resonance up to self-oscillation and adjust the tracking to g
 
 ![Phones](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_Phones.jpg)
 
+4hp
+
 NJM4556 based headphone amp. This is essentially the power section from the nwavguy o2 headphone amp. It has
 a very low output impedance (~1 ohm) so can drive even low impedance headphones. It can deliver a high power
 (utilising two sections of the njm4556 per channel) so can drive 600 ohm impedance headphones with no problem.
@@ -54,9 +56,19 @@ There is a high pass filter on the input to block dc.
 
 - - - -
 
+## LPG ##
+
+![LPG](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_lpg.jpg)
+
+4hp
+
+Buchla-esque lpg. Uses an analog switch ic to select between filter / lpg / vca so that a mechanicaly
+simple spdt on-off-on switch can be used instead of a 3pdt mechanical switch. Filter has added resonance control.
+
+- - - -
+
 ## Planned Modules ##
 ### Testing ###
-- lpg (** DONE - awaiting boards for testing **)
 - 4hp 24db/oct hpf (** DONE - awaiting boards for testing **)
 
 ### In Design and Prototyping ###
