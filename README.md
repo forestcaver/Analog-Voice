@@ -69,7 +69,7 @@ simple spdt on-off-on switch can be used instead of a 3pdt mechanical switch. Fi
 
 ## Planned Modules ##
 ### Testing ###
-- 4hp 24db/oct hpf (** DONE - awaiting boards for testing **)
+- 4hp 24db/oct hpf (** DONE - need to build and test board **)
 
 ### In Design and Prototyping ###
 - vca (3360)
