@@ -67,9 +67,21 @@ simple spdt on-off-on switch can be used instead of a 3pdt mechanical switch. Fi
 
 - - - -
 
+## HPF ##
+
+![HPF](https://github.com/forestcaver/Analog-Voice/blob/master/3320_hpf.jpg)
+
+4hp
+
+4-pole (24db/oct hpf) with fm cv attenuverter, can self oscillate. Reverse polarity protection. Uses an as3320 chip.
+Very similar to the lpf (above) with a simpler set of components around the 3320 but has similar features (apart from,
+obviously, being a high pass filter!)
+
+- - - -
+
 ## Planned Modules ##
 ### Testing ###
-- 4hp 24db/oct hpf (** DONE - need to build and test board **)
+
 
 ### In Design and Prototyping ###
 - vca (3360)
