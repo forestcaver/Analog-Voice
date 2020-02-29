@@ -81,12 +81,16 @@ obviously, being a high pass filter!)
 
 ## Planned Modules ##
 ### Testing ###
+- Dual ASR in 4hp (3310)
+- Dual VCA in 4hp (2164)
 
+- a100m (140) ADSR in 4hp (Awaiting boards)
+- Wasp - with distortion section in 4hp (Awaiting boards)
+- ssi2144 LPF in 4hp (Awaiting boards)
 
 ### In Design and Prototyping ###
 - vca (3360)
 - vcadsr (3310)
-- a100m adsr
 - tzfm 3340 vco (currently being breadboarded)
 
 ### Planned ###
