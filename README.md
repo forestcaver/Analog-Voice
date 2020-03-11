@@ -79,9 +79,18 @@ obviously, being a high pass filter!)
 
 - - - -
 
+## Dual ASR ##
+
+![DASR](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_ASR_01.jpg)
+
+4hp
+
+Dual ASR (Attack/Sustain/Release) in 4hp. Gate A normalled to Gate B. Reverse polarity protection. Uses two as3310 chips.
+
+- - - -
+
 ## Planned Modules ##
 ### Testing ###
-- Dual ASR in 4hp (3310)
 - Dual VCA in 4hp (2164)
 - a100m (140) ADSR in 4hp (Awaiting boards)
 - Wasp - with distortion section in 4hp (Awaiting boards)
