@@ -89,9 +89,18 @@ Dual ASR (Attack/Sustain/Release) in 4hp. Gate A normalled to Gate B. Reverse po
 
 - - - -
 
+## Dual VCA ##
+
+![2V](https://github.com/forestcaver/Analog-Voice/blob/master/013-modular_ajh_vca1.jpg)
+
+4hp
+
+Dual VCA in 4hp. (Derived from two sections of Mutable Instruments Veils). Can chain an unlimited number together to make a huge multi-channel VCA or VC-mixer. Uses a 2164 chip.
+
+- - - -
+
 ## Planned Modules ##
 ### Testing ###
-- Dual VCA in 4hp (2164)
 - a100m (140) ADSR in 4hp (Awaiting boards)
 - Wasp - with distortion section in 4hp (Awaiting boards)
 - ssi2144 LPF in 4hp (Awaiting boards)
