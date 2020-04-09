@@ -116,4 +116,4 @@ Dual VCA in 4hp. (Derived from two sections of Mutable Instruments Veils). Can c
 - Either lfo or looping envelope generator (unsure which yet)
 
 
-Licence: CC-BY-SA 4.0
+Licence: CC-BY-SA 4.0, unless otherwise stated in the individual repositories
