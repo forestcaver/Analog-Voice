@@ -99,6 +99,29 @@ Dual VCA in 4hp. (Derived from two sections of Mutable Instruments Veils). Can c
 
 - - - -
 
+## My Other Modules On GitHub ##
+
+### Minx ###
+
+4hp buffered mult (three sections from MI Links)
+
+[Minx](https://github.com/forestcaver/Minx_AJH "Minx_AJH")
+
+### Jinx ###
+
+4hp triple S+H/noise
+
+[Jinx](https://github.com/forestcaver/Jinx "Jinx")
+
+### Benjolin ###
+
+![Benjolin](https://github.com/forestcaver/Benjolin/blob/master/569-modular_benjolin.jpg)
+
+Strictly for non-commercial use: 
+[benjolin](https://github.com/forestcaver/Benjolin "Benjolin")
+
+- - - -
+
 ## Planned Modules ##
 ### Testing ###
 - a100m (140) ADSR in 4hp (Awaiting boards)
