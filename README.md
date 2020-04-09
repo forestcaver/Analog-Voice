@@ -105,19 +105,26 @@ Dual VCA in 4hp. (Derived from two sections of Mutable Instruments Veils). Can c
 
 4hp buffered mult (three sections from MI Links)
 
+![minx](https://github.com/forestcaver/Minx_AJH/blob/master/minx_01.jpg)
+
 [Minx](https://github.com/forestcaver/Minx_AJH "Minx_AJH")
 
 ### Jinx ###
 
 4hp triple S+H/noise
 
+![jinx](https://github.com/forestcaver/Jinx/blob/master/jinx_01.jpg)
+
 [Jinx](https://github.com/forestcaver/Jinx "Jinx")
 
 ### Benjolin ###
 
+0603 version of Rob Hordijk's Benjolin (with kind permission from Rob)
+
 ![Benjolin](https://github.com/forestcaver/Benjolin/blob/master/569-modular_benjolin.jpg)
 
-Strictly for non-commercial use: 
+Strictly for non-commercial use:
+
 [benjolin](https://github.com/forestcaver/Benjolin "Benjolin")
 
 - - - -
