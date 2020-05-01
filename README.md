@@ -134,6 +134,7 @@ Strictly for non-commercial use:
 - a100m (140) ADSR in 4hp (Awaiting boards)
 - Wasp - with distortion section in 4hp (Awaiting boards)
 - ssi2144 LPF in 4hp (Awaiting boards)
+- Module tester module (Awaiting boards)
 
 ### In Design and Prototyping ###
 - vca (3360)
