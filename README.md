@@ -14,7 +14,7 @@ For both of these modules, I have taken inspiration and designs from TINRS, Muta
 
 ## 3340 VCO ##
 
-![3340 vco](https://github.com/forestcaver/Analog-Voice/blob/master/3340_vco.jpg)
+![3340 vco](https://github.com/forestcaver/Analog-Voice/images/3340_vco.jpg)
 
 8hp.
 
@@ -31,7 +31,7 @@ Mine tracks within one cent over 6 octaves.
 
 ## 3320 LPF ##
 
-![3320 lpf](https://github.com/forestcaver/Analog-Voice/blob/master/3320_lpf.jpg)
+![3320 lpf](https://github.com/forestcaver/Analog-Voice/images/3320_lpf.jpg)
 
 4hp.
 
@@ -45,7 +45,7 @@ Calibration - turn resonance up to self-oscillation and adjust the tracking to g
 
 ## Phones (Headphone Amp) ##
 
-![Phones](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_Phones.jpg)
+![Phones](https://github.com/forestcaver/Analog-Voice/images/AJH_Phones.jpg)
 
 4hp
 
@@ -58,7 +58,7 @@ There is a high pass filter on the input to block dc.
 
 ## LPG ##
 
-![LPG](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_lpg.jpg)
+![LPG](https://github.com/forestcaver/Analog-Voice/images/AJH_lpg.jpg)
 
 4hp
 
@@ -69,7 +69,7 @@ simple spdt on-off-on switch can be used instead of a 3pdt mechanical switch. Fi
 
 ## HPF ##
 
-![HPF](https://github.com/forestcaver/Analog-Voice/blob/master/3320_hpf.jpg)
+![HPF](https://github.com/forestcaver/Analog-Voice/images/3320_hpf.jpg)
 
 4hp
 
@@ -81,7 +81,7 @@ obviously, being a high pass filter!)
 
 ## Dual ASR ##
 
-![DASR](https://github.com/forestcaver/Analog-Voice/blob/master/AJH_ASR_01.jpg)
+![DASR](https://github.com/forestcaver/Analog-Voice/images/AJH_ASR_01.jpg)
 
 4hp
 
@@ -91,7 +91,7 @@ Dual ASR (Attack/Sustain/Release) in 4hp. Gate A normalled to Gate B. Reverse po
 
 ## Dual VCA ##
 
-![2V](https://github.com/forestcaver/Analog-Voice/blob/master/013-modular_ajh_vca1.jpg)
+![2V](https://github.com/forestcaver/Analog-Voice/images/013-modular_ajh_vca1.jpg)
 
 4hp
 
