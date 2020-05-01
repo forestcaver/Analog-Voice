@@ -6,9 +6,7 @@ This repository will hold my analog voice modules.
 The plan is to design and build a cheap analog (mainly subtractive) voice that can be built very cheaply or even
 ordered via the Chinese PCB Assembly services.
 
-Currently, there is a 3320-based lpf and a 3340-based vco.
-Both are working well. I have built what I believe are the final versions (just awaiting feedback from people)
-For both of these modules, I have taken inspiration and designs from TINRS, Mutable Instruments and the datasheets for both the Alfa chips and the original CEM chips.
+Please read below for the status of these designs. Some are works in progress and some are completed.
 
 - - - -
 
@@ -147,4 +145,4 @@ Strictly for non-commercial use:
 - Either lfo or looping envelope generator (unsure which yet)
 
 
-Licence: CC-BY-SA 4.0, unless otherwise stated in the individual repositories
+Licence: CC-BY-NC-SA 4.0, unless otherwise stated in the individual repositories
