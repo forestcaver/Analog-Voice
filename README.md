@@ -10,6 +10,11 @@ Please read below for the status of these designs. Some are works in progress an
 
 - - - -
 
+I made a 3d-printed case with a dc-dc converter (£7.50) to test them:
+![case](https://github.com/forestcaver/Analog-Voice/blob/master/images/017-modular_3dcase.jpg)
+
+- - - -
+
 ## 3340 VCO ##
 
 ![3340 vco](https://github.com/forestcaver/Analog-Voice/blob/master/images/3340_vco.jpg)
