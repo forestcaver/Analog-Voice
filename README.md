@@ -102,6 +102,36 @@ Dual VCA in 4hp. (Derived from two sections of Mutable Instruments Veils). Can c
 
 - - - -
 
+## Wasp ##
+
+![2V](https://github.com/forestcaver/Analog-Voice/blob/master/images/018-modular_ajh_wasp.jpg)
+
+4hp
+
+Wasp filter in 4hp.
+
+- - - -
+
+## ADSR ##
+
+![2V](https://github.com/forestcaver/Analog-Voice/blob/master/images/020-modular_ajh_adsr.jpg)
+
+4hp
+
+a100m ADSR in 4hp.
+
+- - - -
+
+## LPF 2 ##
+
+![2V](https://github.com/forestcaver/Analog-Voice/blob/master/images/022-modular_ajh_lpf2.jpg)
+
+4hp
+
+ssi2144-based filter in 4hp with attenuverter on FM input.
+
+- - - -
+
 ## My Other Modules On GitHub ##
 
 ### Minx ###
@@ -134,10 +164,7 @@ Strictly for non-commercial use:
 
 ## Planned Modules ##
 ### Testing ###
-- a100m (140) ADSR in 4hp (Awaiting boards)
-- Wasp - with distortion section in 4hp (Awaiting boards)
-- ssi2144 LPF in 4hp (Awaiting boards)
-- Module tester module (Awaiting boards)
+- Module tester module
 
 ### In Design and Prototyping ###
 - vca (3360)
