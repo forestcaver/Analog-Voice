@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23315,12 +23315,11 @@ DIN A3, landscape with location and doc. field</description>
 <sheet>
 <plain>
 <text x="10.16" y="-76.2" size="1.778" layer="97" rot="R90">EEE-1EA100WR</text>
-<text x="321.31" y="-93.98" size="2.54" layer="94">Wasp Filter v1.0</text>
-<text x="267.97" y="-91.44" size="2.54" layer="94" align="top-left">Wasp Filter v1.0
-copyright forestcaver 2020
+<text x="321.31" y="-93.98" size="2.54" layer="94">Wasp Filter</text>
+<text x="267.97" y="-91.44" size="2.54" layer="94" align="top-left">Copyright forestcaver 2020
 Adapted from schematics
-published by Jurgen Haible,
-Matthias Hermann and CGS
+by Jurgen Haible, Matthias
+Hermann, Synth DIY and CGS
 </text>
 </plain>
 <instances>
@@ -23510,10 +23509,10 @@ Matthias Hermann and CGS
 <attribute name="NAME" x="97.79" y="-1.4986" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="97.79" y="3.302" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R101" gate="G$1" x="101.6" y="-10.16" smashed="yes">
-<attribute name="NAME" x="96.52" y="-12.7" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="99.06" y="-12.7" size="1.778" layer="96" rot="R90"/>
-<attribute name="LABEL" x="93.98" y="-15.24" size="1.778" layer="96" rot="R90"/>
+<instance part="R101" gate="G$1" x="101.6" y="-10.16" smashed="yes" rot="MR180">
+<attribute name="NAME" x="96.52" y="-7.62" size="1.778" layer="95" rot="MR270"/>
+<attribute name="VALUE" x="99.06" y="-7.62" size="1.778" layer="96" rot="MR270"/>
+<attribute name="LABEL" x="93.98" y="-5.08" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="C8" gate="G$1" x="101.6" y="-27.94" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.076" y="-28.321" size="1.778" layer="95" rot="R180"/>
@@ -24225,11 +24224,8 @@ Matthias Hermann and CGS
 <segment>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="0" x2="101.6" y2="0" width="0.1524" layer="91"/>
-<pinref part="R101" gate="G$1" pin="E"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="101.6" y="0"/>
-<wire x1="101.6" y1="0" x2="177.8" y2="0" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="B" pin="O"/>
+<wire x1="101.6" y1="0" x2="177.8" y2="0" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="27.94" x2="172.72" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="177.8" y1="27.94" x2="177.8" y2="45.72" width="0.1524" layer="91"/>
@@ -24242,6 +24238,9 @@ Matthias Hermann and CGS
 <label x="177.8" y="45.72" size="1.778" layer="95"/>
 <wire x1="177.8" y1="0" x2="177.8" y2="15.24" width="0.1524" layer="91"/>
 <junction x="177.8" y="15.24"/>
+<pinref part="R101" gate="G$1" pin="A"/>
+<wire x1="101.6" y1="-2.54" x2="101.6" y2="0" width="0.1524" layer="91"/>
+<junction x="101.6" y="0"/>
 </segment>
 <segment>
 <pinref part="S100" gate="G$1" pin="4"/>
@@ -24251,23 +24250,23 @@ Matthias Hermann and CGS
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="R101" gate="G$1" pin="A"/>
-<wire x1="101.6" y1="-17.78" x2="101.6" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="-20.32" x2="86.36" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="-20.32" x2="86.36" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="-20.32" x2="101.6" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="R101" gate="G$1" pin="E"/>
+<wire x1="101.6" y1="-17.78" x2="101.6" y2="-20.32" width="0.1524" layer="91"/>
 <junction x="101.6" y="-20.32"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R101" gate="G$1" pin="S"/>
-<wire x1="106.68" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="-10.16" x2="109.22" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="7.62" x2="76.2" y2="7.62" width="0.1524" layer="91"/>
+<pinref part="R101" gate="G$1" pin="S"/>
+<wire x1="106.68" y1="-10.16" x2="109.22" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
