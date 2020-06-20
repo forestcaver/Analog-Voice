@@ -1,5 +1,5 @@
 # Wasp filter
 
-Not yet built and tested
+Built and tested
 
 CC-BY-NC-SA 4.0
