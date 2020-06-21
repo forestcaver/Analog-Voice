@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20282,17 +20282,17 @@ on electro-music forum</text>
 <attribute name="NAME" x="-54.61" y="-4.0386" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-54.61" y="0.762" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R100" gate="G$1" x="-43.18" y="48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="-40.64" y="43.18" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-40.64" y="45.72" size="1.778" layer="96" rot="R180"/>
+<instance part="R100" gate="G$1" x="-43.18" y="48.26" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-45.72" y="43.18" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-45.72" y="45.72" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R101" gate="G$1" x="-43.18" y="-2.54" smashed="yes" rot="R90">
-<attribute name="NAME" x="-40.64" y="-7.62" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-40.64" y="-5.08" size="1.778" layer="96" rot="R180"/>
+<instance part="R101" gate="G$1" x="-43.18" y="-2.54" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-45.72" y="-7.62" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-45.72" y="-5.08" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="R103" gate="G$1" x="-43.18" y="-55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="-40.64" y="-60.96" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-40.64" y="-58.42" size="1.778" layer="96" rot="R180"/>
+<instance part="R103" gate="G$1" x="-43.18" y="-55.88" smashed="yes" rot="MR90">
+<attribute name="NAME" x="-45.72" y="-60.96" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="-45.72" y="-58.42" size="1.778" layer="96" rot="MR180"/>
 </instance>
 <instance part="Q7" gate="G$1" x="-124.46" y="-68.58" smashed="yes">
 <attribute name="NAME" x="-134.62" y="-60.96" size="1.778" layer="95"/>
@@ -20908,41 +20908,20 @@ on electro-music forum</text>
 <wire x1="-68.58" y1="-2.54" x2="-63.5" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$36" class="0">
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="-81.28" y1="48.26" x2="-50.8" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R100" gate="G$1" pin="E"/>
-</segment>
-</net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="R100" gate="G$1" pin="S"/>
-<wire x1="-43.18" y1="53.34" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="55.88" x2="-33.02" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="55.88" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="R100" gate="G$1" pin="A"/>
-<wire x1="-33.02" y1="48.26" x2="-35.56" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="55.88" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-33.02" y="55.88"/>
+<wire x1="-33.02" y1="55.88" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="48.26" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
-<junction x="-33.02" y="48.26"/>
-<pinref part="R101" gate="G$1" pin="S"/>
-<wire x1="-43.18" y1="2.54" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="5.08" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-33.02" y1="5.08" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
 <junction x="-33.02" y="5.08"/>
-<pinref part="R101" gate="G$1" pin="A"/>
-<wire x1="-33.02" y1="-2.54" x2="-35.56" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="R103" gate="G$1" pin="S"/>
-<wire x1="-43.18" y1="-50.8" x2="-43.18" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-43.18" y1="-48.26" x2="-33.02" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-48.26" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="-33.02" y="-2.54"/>
+<wire x1="-33.02" y1="-2.54" x2="-33.02" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="-48.26" x2="-33.02" y2="-55.88" width="0.1524" layer="91"/>
 <junction x="-33.02" y="-48.26"/>
-<pinref part="R103" gate="G$1" pin="A"/>
-<wire x1="-33.02" y1="-55.88" x2="-35.56" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A" pin="+IN"/>
 <wire x1="-33.02" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="60.96" x2="-17.78" y2="60.96" width="0.1524" layer="91"/>
@@ -20952,13 +20931,20 @@ on electro-music forum</text>
 <pinref part="C9" gate="G$1" pin="+"/>
 <wire x1="-25.4" y1="25.4" x2="-25.4" y2="35.56" width="0.1524" layer="91"/>
 <junction x="-25.4" y="35.56"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
+<pinref part="R100" gate="G$1" pin="S"/>
+<wire x1="-43.18" y1="53.34" x2="-43.18" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R100" gate="G$1" pin="E"/>
+<wire x1="-35.56" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
+<junction x="-33.02" y="48.26"/>
 <pinref part="R101" gate="G$1" pin="E"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="-50.8" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
+<wire x1="-35.56" y1="-2.54" x2="-33.02" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-33.02" y="-2.54"/>
+<pinref part="R101" gate="G$1" pin="S"/>
+<wire x1="-43.18" y1="2.54" x2="-43.18" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R103" gate="G$1" pin="S"/>
+<wire x1="-43.18" y1="-50.8" x2="-43.18" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="R103" gate="G$1" pin="E"/>
+<wire x1="-35.56" y1="-55.88" x2="-33.02" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$57" class="0">
@@ -20984,13 +20970,6 @@ on electro-music forum</text>
 <pinref part="R18" gate="G$1" pin="1"/>
 <pinref part="Q7" gate="G$1" pin="B"/>
 <wire x1="-142.24" y1="-68.58" x2="-127" y2="-68.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="R22" gate="G$1" pin="1"/>
-<pinref part="R103" gate="G$1" pin="E"/>
-<wire x1="-58.42" y1="-55.88" x2="-50.8" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -21100,6 +21079,27 @@ on electro-music forum</text>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="-119.38" y1="27.94" x2="-119.38" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-119.38" y="27.94"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="R100" gate="G$1" pin="A"/>
+<wire x1="-81.28" y1="48.26" x2="-50.8" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="R101" gate="G$1" pin="A"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="-50.8" y1="-2.54" x2="-53.34" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="R22" gate="G$1" pin="1"/>
+<pinref part="R103" gate="G$1" pin="A"/>
+<wire x1="-58.42" y1="-55.88" x2="-50.8" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
