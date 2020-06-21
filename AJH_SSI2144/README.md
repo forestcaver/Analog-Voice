@@ -1,5 +1,5 @@
 # SSI 2144 LPF
 
-Not yet built and tested (awaiting pcbs) 
+Built and tested
 
 CC-BY-NC-SA 4.0
