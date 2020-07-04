@@ -1,8 +1,5 @@
 # Module Tester Module
 
-Awaiting pcbs.
-
-Not fully tested and built (yet!)
-Display tested and working
+Tested and working (need to revise panel as cutout too large)
 
 CC-BY-SA 4.0
