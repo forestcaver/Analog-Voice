@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13358,10 +13358,10 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <pad name="3" x="6.35" y="2.54" drill="0.7" diameter="1.3"/>
 <pad name="4" x="6.35" y="-2.54" drill="0.7" diameter="1.3"/>
 <text x="-2.54" y="3.175" size="1.27" layer="25">&gt;NAME</text>
-<wire x1="-4.137078125" y1="1.27" x2="-3.629078125" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.121078125" y1="1.27" x2="-3.629078125" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.629078125" y1="1.778" x2="-3.629078125" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-3.629078125" y1="0.762" x2="-3.629078125" y2="1.27" width="0.127" layer="21"/>
+<wire x1="-4.137078125" y1="-1.27" x2="-3.629078125" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.121078125" y1="-1.27" x2="-3.629078125" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.629078125" y1="-0.762" x2="-3.629078125" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.629078125" y1="-1.778" x2="-3.629078125" y2="-1.27" width="0.127" layer="21"/>
 <text x="-1.524" y="-1.524" size="1.27" layer="21" ratio="12" rot="R90">LED</text>
 <wire x1="-0.254" y1="-0.762" x2="1.016" y2="0" width="0.127" layer="21"/>
 <wire x1="0.48168125" y1="0.025909375" x2="1.016" y2="0" width="0.127" layer="21"/>
@@ -13382,7 +13382,7 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <wire x1="2.794" y1="-1.524" x2="2.794" y2="-2.54" width="0.4064" layer="21"/>
 <wire x1="2.794" y1="-2.54" x2="5.842" y2="-2.54" width="0.4064" layer="21"/>
 <text x="-7.112" y="-4.318" size="1.27" layer="21">VACTROL</text>
-<wire x1="-3.121078125" y1="-1.27" x2="-4.137078125" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-3.121078125" y1="1.27" x2="-4.137078125" y2="1.27" width="0.127" layer="21"/>
 <pad name="5" x="6.35" y="0" drill="0.7" diameter="1.3"/>
 <wire x1="2.794" y1="0" x2="5.842" y2="0" width="0.4064" layer="21"/>
 </package>
@@ -13447,8 +13447,8 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 <devices>
 <device name="" package="VACTROL_5PIN_VTL5C-2">
 <connects>
-<connect gate="G$1" pin="A" pad="1"/>
-<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
 <connect gate="G$1" pin="L1" pad="3"/>
 <connect gate="G$1" pin="L2" pad="4"/>
 <connect gate="G$1" pin="P$1" pad="5"/>
