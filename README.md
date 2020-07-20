@@ -164,12 +164,14 @@ Strictly for non-commercial use:
 
 ## Planned Modules ##
 ### Testing ###
-- Module tester module
 
 ### In Design and Prototyping ###
 - vca (3360)
 - vcadsr (3310)
 - tzfm 3340 vco (currently being breadboarded)
+- matrix mixer
+- 2-sections of blinds in 4hp
+- Wavefolder
 
 ### Planned ###
 - envelope generator (dusg)
