@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -155,7 +155,7 @@
 <wire x1="19.03" y1="0" x2="19.03" y2="106.76" width="0.1524" layer="20"/>
 <wire x1="19.03" y1="106.76" x2="0" y2="106.76" width="0.1524" layer="20"/>
 <wire x1="0" y1="106.76" x2="0" y2="0" width="0.1524" layer="20"/>
-<text x="1.397" y="16.764" size="0.6096" layer="21" rot="R90">AS3310 Dual ASR v1.0 by forestcaver c 2020</text>
+<text x="1.397" y="16.764" size="0.6096" layer="21" rot="R90">AS3310 Dual ASR v1.1 by forestcaver c 2020</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -943,6 +943,14 @@ NS Package M08A</description>
 <attribute name="NAME" x="2.54" y="14.097" size="0.4064" layer="25" rot="R90"/>
 <attribute name="VALUE" x="4.445" y="11.43" size="1.27" layer="27" rot="R90"/>
 </element>
+<element name="R22" library="resistor" package="R0603" value="100k" x="12.065" y="27.813" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.954" y="26.924" size="1.27" layer="25" rot="R180"/>
+<attribute name="VALUE" x="12.954" y="29.845" size="1.27" layer="27" rot="R180"/>
+</element>
+<element name="R23" library="resistor" package="R0603" value="100k" x="8.255" y="27.813" smashed="yes">
+<attribute name="NAME" x="7.366" y="28.702" size="1.27" layer="25"/>
+<attribute name="VALUE" x="7.366" y="25.781" size="1.27" layer="27"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
@@ -1012,6 +1020,8 @@ NS Package M08A</description>
 <contactref element="C16" pad="1"/>
 <contactref element="R16" pad="1"/>
 <contactref element="R20" pad="1"/>
+<contactref element="R22" pad="2"/>
+<contactref element="R23" pad="2"/>
 </signal>
 <signal name="12V" class="1">
 <contactref element="C11" pad="1"/>
@@ -1229,6 +1239,9 @@ NS Package M08A</description>
 <wire x1="13.5858" y1="40.2119125" x2="12.0122" y2="38.6383125" width="0.2032" layer="16"/>
 <contactref element="D4" pad="CATHODE"/>
 <wire x1="14.986" y1="29.017" x2="14.986" y2="30.48" width="0.2032" layer="1"/>
+<contactref element="R22" pad="1"/>
+<wire x1="12.915" y1="27.813" x2="14.119" y2="29.017" width="0.2032" layer="1"/>
+<wire x1="14.119" y1="29.017" x2="14.986" y2="29.017" width="0.2032" layer="1"/>
 </signal>
 <signal name="N$5">
 <contactref element="C10" pad="2"/>
@@ -1341,10 +1354,15 @@ NS Package M08A</description>
 <wire x1="9.0472" y1="40.8038" x2="9.0472" y2="40.0138" width="0.2032" layer="1"/>
 <wire x1="9.0472" y1="40.8038" x2="9.017" y2="40.834" width="0.2032" layer="1"/>
 <wire x1="9.818" y1="37.846" x2="9.818" y2="36.44295" width="0.2032" layer="1"/>
-<wire x1="9.818" y1="36.44295" x2="9.0106" y2="35.63555" width="0.2032" layer="1"/>
-<wire x1="9.0106" y1="34.8526" x2="9.0106" y2="35.63555" width="0.2032" layer="1"/>
-<wire x1="5.08" y1="30.922" x2="9.0106" y2="34.8526" width="0.2032" layer="1"/>
-<wire x1="5.08" y1="29.017" x2="5.08" y2="30.922" width="0.2032" layer="1"/>
+<wire x1="9.0106" y1="35.63555" x2="9.818" y2="36.44295" width="0.2032" layer="1"/>
+<contactref element="R23" pad="1"/>
+<wire x1="5.08" y1="29.017" x2="6.201" y2="29.017" width="0.2032" layer="1"/>
+<wire x1="6.201" y1="29.017" x2="7.405" y2="27.813" width="0.2032" layer="1"/>
+<wire x1="5.08" y1="31.877" x2="6.858" y2="33.655" width="0.2032" layer="1"/>
+<wire x1="6.858" y1="33.655" x2="7.874" y2="33.655" width="0.2032" layer="1"/>
+<wire x1="7.874" y1="33.655" x2="9.0106" y2="34.7916" width="0.2032" layer="1"/>
+<wire x1="5.08" y1="29.017" x2="5.08" y2="31.877" width="0.2032" layer="1"/>
+<wire x1="9.0106" y1="34.7916" x2="9.0106" y2="35.63555" width="0.2032" layer="1"/>
 </signal>
 <signal name="A2_IN">
 <contactref element="R102" pad="P$2"/>
