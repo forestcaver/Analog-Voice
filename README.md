@@ -132,6 +132,15 @@ ssi2144-based filter in 4hp with attenuverter on FM input.
 
 - - - -
 
+## Module Tester Module ##
+
+![2V](https://github.com/forestcaver/Analog-Voice/blob/master/images/024-modular_ajh_module_tester.jpg)
+
+SMT module tester module with four added precision voltage outputs (set with trimmers).
+Note: The above image shows the prototype panel! The one in the repository has the correct sized window.
+
+- - - -
+
 ## My Other Modules On GitHub ##
 
 ### Minx ###
@@ -164,12 +173,12 @@ Strictly for non-commercial use:
 
 ## Planned Modules ##
 ### Testing ###
+- matrix mixer - 14hp, 4x4, uni-/bipolar selectable per column (ie all pots in column are attenuators or attenuverters). Switch to select whether inputs are normalled to a precision voltage (either 5v or 10v, selectable with a jumper on the back of the module).
 
 ### In Design and Prototyping ###
 - vca (3360)
 - vcadsr (3310)
 - tzfm 3340 vco (currently being breadboarded)
-- matrix mixer
 - 2-sections of blinds in 4hp
 - Wavefolder
 
