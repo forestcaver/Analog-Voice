@@ -181,6 +181,7 @@ Strictly for non-commercial use:
 - tzfm 3340 vco (currently being breadboarded)
 - 2-sections of blinds in 4hp
 - Wavefolder
+- Distortion module
 
 ### Planned ###
 - envelope generator (dusg)
