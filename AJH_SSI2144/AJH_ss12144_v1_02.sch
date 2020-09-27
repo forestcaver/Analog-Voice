@@ -15969,7 +15969,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="J101" library="og-pj301_variations" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="R2" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="162k"/>
+<part name="R16" library="resistor" deviceset="R-US_" device="R0603" value="130k"/>
 <part name="R17" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R23" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
 <part name="R3" library="resistor" deviceset="R-US_" device="R0603" value="100k"/>
@@ -16031,8 +16031,10 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-114.3" y="-137.16" size="1.778" layer="94">+</text>
 <text x="-109.22" y="-60.96" size="1.778" layer="91">667-ERA-V33J102V - obsolete
 667-ERT-J1VK102FM - check datasheet</text>
-<text x="-152.4" y="-2.54" size="1.778" layer="91">SSI2144 needs ~ -19mv/oct, but parts have quite wide variability
-So probably best for R11 to be 100k, or use 50k and adjust the 162k to suit</text>
+<text x="-142.24" y="-2.54" size="1.778" layer="91">SSI2144 needs ~ -19mv/oct, but parts have quite wide variability
+So choose either R11=100k and R16=130k; or  R11=50k and R16=162k</text>
+<text x="-53.34" y="-40.64" size="1.778" layer="91">R21 and R11 are optional - the trimmer can
+be used to set the offset of the frequency pot.</text>
 </plain>
 <instances>
 <instance part="GND8" gate="1" x="-180.34" y="-152.4" smashed="yes">
