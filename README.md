@@ -141,6 +141,17 @@ Note: The above image shows the prototype panel! The one in the repository has t
 
 - - - -
 
+## Dual VCA ##
+
+![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/2B_01.jpg)
+
+4hp
+
+Dual polarising VCA in 4hp. (Derived from two sections of Mutable Instruments Blinds). Can chain an unlimited number together to make a huge multi-channel VCA or VC-mixer. Uses a 2164 chip.
+
+- - - -
+
+
 ## My Other Modules On GitHub ##
 
 ### Minx ###
