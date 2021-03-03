@@ -141,7 +141,7 @@ Note: The above image shows the prototype panel! The one in the repository has t
 
 - - - -
 
-## Dual VCA ##
+## Matrix Mixer ##
 
 ![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/025-modular_ajh_mm.jpg)
 
@@ -163,6 +163,7 @@ TZFM analog VCO using the ssi2130 analog chip. Hard/soft sync (can be turned off
 PWM attenuator (0-5v cv input), exponential FM with attenuverter, linear FM with attenuator. Hard/soft sync.
 Jumpers allow you to change the behaviour of PWM (either the leading edge of the pulse is constant and the trailing edge
 occurs at varying times or both leading and trailing edges of the pulse change). Jumpers also selct whether to use FM or PM.
+(Note that this is quite a dense build!)
 
 
 
