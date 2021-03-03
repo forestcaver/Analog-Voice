@@ -143,14 +143,30 @@ Note: The above image shows the prototype panel! The one in the repository has t
 
 ## Dual VCA ##
 
-![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/2B_01.jpg)
+![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/025-modular_ajh_mm.jpg)
 
-4hp
+14hp
 
-Dual polarising VCA in 4hp. (Derived from two sections of Mutable Instruments Blinds). Can chain an unlimited number together to make a huge multi-channel VCA or VC-mixer. Uses a 2164 chip.
+Matrix mixer in 4hp. Control knobs for each column can be selected to be bipolar (attenuverting) or unipolar (attenuating).
+You can select a 5v offset to be normalled to input 4 as well.
 
 - - - -
+ 
+## TZFM VCO ##
 
+![TZFM](https://github.com/forestcaver/Analog-Voice/blob/master/images/027-modular_ajh_tzfm.jpg)
+![TZFM2](https://github.com/forestcaver/Analog-Voice/blob/master/images/028-modular_ajh_tzfm.jpg)
+
+8hp
+
+TZFM analog VCO using the ssi2130 analog chip. Hard/soft sync (can be turned off with switch in middle position.
+PWM attenuator (0-5v cv input), exponential FM with attenuverter, linear FM with attenuator. Hard/soft sync.
+Jumpers allow you to change the behaviour of PWM (either the leading edge of the pulse is constant and the trailing edge
+occurs at varying times or both leading and trailing edges of the pulse change). Jumpers also selct whether to use FM or PM.
+
+
+
+![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/2B_01.jpg)
 
 ## My Other Modules On GitHub ##
 
