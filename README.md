@@ -137,7 +137,17 @@ ssi2144-based filter in 4hp with attenuverter on FM input.
 ![2V](https://github.com/forestcaver/Analog-Voice/blob/master/images/024-modular_ajh_module_tester.jpg)
 
 SMT module tester module with four added precision voltage outputs (set with trimmers).
-Note: The above image shows the prototype panel! The one in the repository has the correct sized window.
+
+- - - -
+
+## Dual polarising VCA ##
+
+![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/2B_01.jpg)
+
+4hp
+
+Dual polarising VCA (based on Mutable Instruments Blinds). Multiple modules can be chained together.
+
 
 - - - -
 
@@ -166,8 +176,8 @@ occurs at varying times or both leading and trailing edges of the pulse change).
 (Note that this is quite a dense build!)
 
 
+- - - -
 
-![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/2B_01.jpg)
 
 ## My Other Modules On GitHub ##
 
