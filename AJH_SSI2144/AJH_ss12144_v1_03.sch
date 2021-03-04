@@ -18353,7 +18353,7 @@ DIN A3, landscape with location and doc. field</description>
 Or through hole PTC 3300ppm/deg C</text>
 <text x="-142.24" y="-2.54" size="1.778" layer="91">SSI2144 needs ~ -19mv/oct, but parts have quite wide variability
 So choose either R11=100k and R16=130k; or  R11=50k and R16=162k</text>
-<text x="-53.34" y="-40.64" size="1.778" layer="91">R21 and R11 are optional - the trimmer can
+<text x="-53.34" y="-40.64" size="1.778" layer="91">R21 and R12 are optional - the trimmer can
 be used to set the offset of the frequency pot.</text>
 </plain>
 <instances>
