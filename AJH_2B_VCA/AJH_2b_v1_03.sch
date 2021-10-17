@@ -21978,7 +21978,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="J103" library="og-pj301" deviceset="PJ301_THONKICONN" device="6"/>
 <part name="R101" library="pot-alps" deviceset="POT_US" device="VERTICAL_PS" value="10kB"/>
 <part name="LED101" library="led" deviceset="LED" device="3MM" value="WP937EGW"/>
-<part name="IC4" library="ssm2164" deviceset="SSM2164" device="S" value="V2164SZ"/>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="47p"/>
 <part name="R58" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="402"/>
 <part name="GND31" library="SparkFun" deviceset="GND" device=""/>
@@ -22066,15 +22065,10 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND62" library="SparkFun" deviceset="GND" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
-<part name="GND63" library="SparkFun" deviceset="GND" device=""/>
 <part name="P+1" library="SparkFun" deviceset="VCC" device=""/>
 <part name="SUPPLY5" library="supply2" deviceset="VEE" device=""/>
 <part name="R5" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="DNP"/>
-<part name="R4" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0402" package3d_urn="urn:adsk.eagle:package:26058/2" value="DNP"/>
 <part name="P+4" library="SparkFun" deviceset="VCC" device=""/>
-<part name="P+5" library="SparkFun" deviceset="VCC" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
@@ -22892,14 +22886,6 @@ original design by Émilie Gillet</text>
 <attribute name="NAME" x="118.872" y="163.576" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="118.872" y="165.735" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IC4" gate="A" x="71.12" y="43.18" smashed="yes" rot="MR180">
-<attribute name="NAME" x="76.2" y="38.1" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="76.2" y="50.8" size="1.778" layer="96" rot="MR180"/>
-</instance>
-<instance part="IC4" gate="D" x="127" y="83.82" smashed="yes" rot="MR180">
-<attribute name="NAME" x="132.08" y="78.74" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="132.08" y="91.44" size="1.778" layer="96" rot="MR180"/>
-</instance>
 <instance part="C28" gate="G$1" x="190.5" y="106.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="189.865" y="107.696" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="194.691" y="107.696" size="1.778" layer="96" rot="R90"/>
@@ -23115,6 +23101,14 @@ original design by Émilie Gillet</text>
 <attribute name="NAME" x="212.852" y="140.716" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="212.852" y="142.875" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="IC3" gate="D" x="127" y="83.82" smashed="yes" rot="MR180">
+<attribute name="NAME" x="132.08" y="78.74" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="132.08" y="91.44" size="1.778" layer="96" rot="MR180"/>
+</instance>
+<instance part="IC3" gate="A" x="71.12" y="43.18" smashed="yes" rot="MR180">
+<attribute name="NAME" x="76.2" y="38.1" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="76.2" y="50.8" size="1.778" layer="96" rot="MR180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -23237,7 +23231,7 @@ original design by Émilie Gillet</text>
 <junction x="119.38" y="83.82"/>
 <pinref part="R30" gate="G$1" pin="2"/>
 <pinref part="R29" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="D" pin="IN"/>
+<pinref part="IC3" gate="D" pin="IN"/>
 </segment>
 </net>
 <net name="OUT3" class="0">
@@ -23268,7 +23262,7 @@ original design by Émilie Gillet</text>
 <junction x="144.78" y="83.82"/>
 <pinref part="R41" gate="G$1" pin="2"/>
 <pinref part="IC8" gate="A" pin="-IN"/>
-<pinref part="IC4" gate="D" pin="OUT"/>
+<pinref part="IC3" gate="D" pin="OUT"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -23514,7 +23508,7 @@ original design by Émilie Gillet</text>
 <pinref part="C19" gate="G$1" pin="1"/>
 <pinref part="R49" gate="G$1" pin="1"/>
 <pinref part="R52" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="A" pin="OUT"/>
+<pinref part="IC3" gate="A" pin="OUT"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -23531,8 +23525,8 @@ original design by Émilie Gillet</text>
 <junction x="106.68" y="50.8"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 <pinref part="IC5" gate="B" pin="OUT"/>
-<pinref part="IC4" gate="D" pin="CTRL"/>
-<pinref part="IC4" gate="A" pin="CTRL"/>
+<pinref part="IC3" gate="A" pin="CTRL"/>
+<pinref part="IC3" gate="D" pin="CTRL"/>
 </segment>
 </net>
 <net name="FOO2" class="0">
@@ -23543,7 +23537,7 @@ original design by Émilie Gillet</text>
 <junction x="63.5" y="43.18"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="A" pin="IN"/>
+<pinref part="IC3" gate="A" pin="IN"/>
 </segment>
 </net>
 <net name="N$70" class="0">
@@ -23749,10 +23743,6 @@ original design by Émilie Gillet</text>
 </instance>
 <instance part="IC6" gate="P" x="114.3" y="127" smashed="yes"/>
 <instance part="IC7" gate="P" x="129.54" y="127" smashed="yes"/>
-<instance part="IC4" gate="E" x="259.08" y="127" smashed="yes">
-<attribute name="NAME" x="264.16" y="114.3" size="1.778" layer="95"/>
-<attribute name="VALUE" x="264.16" y="111.76" size="1.778" layer="96"/>
-</instance>
 <instance part="IC5" gate="P" x="243.84" y="124.46" smashed="yes"/>
 <instance part="IC8" gate="P" x="248.92" y="124.46" smashed="yes"/>
 <instance part="C26" gate="G$1" x="198.12" y="132.08" smashed="yes">
@@ -23774,17 +23764,6 @@ original design by Émilie Gillet</text>
 <attribute name="NAME" x="209.296" y="120.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="209.296" y="115.189" size="1.778" layer="96"/>
 </instance>
-<instance part="C8" gate="G$1" x="218.44" y="132.08" smashed="yes">
-<attribute name="NAME" x="219.456" y="132.715" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.456" y="127.889" size="1.778" layer="96"/>
-</instance>
-<instance part="C9" gate="G$1" x="218.44" y="119.38" smashed="yes">
-<attribute name="NAME" x="219.456" y="120.015" size="1.778" layer="95"/>
-<attribute name="VALUE" x="219.456" y="115.189" size="1.778" layer="96"/>
-</instance>
-<instance part="GND63" gate="1" x="276.86" y="116.84" smashed="yes">
-<attribute name="VALUE" x="274.32" y="114.3" size="1.778" layer="96"/>
-</instance>
 <instance part="P+1" gate="1" x="233.68" y="139.7" smashed="yes">
 <attribute name="VALUE" x="232.664" y="143.256" size="1.778" layer="96"/>
 </instance>
@@ -23795,15 +23774,8 @@ original design by Émilie Gillet</text>
 <attribute name="NAME" x="151.3586" y="140.97" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="146.558" y="140.97" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="269.24" y="134.62" smashed="yes" rot="R270">
-<attribute name="NAME" x="270.7386" y="138.43" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="265.938" y="138.43" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="P+4" gate="1" x="149.86" y="144.78" smashed="yes">
 <attribute name="VALUE" x="148.844" y="148.336" size="1.778" layer="96"/>
-</instance>
-<instance part="P+5" gate="1" x="269.24" y="142.24" smashed="yes">
-<attribute name="VALUE" x="268.224" y="145.796" size="1.778" layer="96"/>
 </instance>
 <instance part="C1" gate="G$1" x="175.26" y="193.04" smashed="yes">
 <attribute name="NAME" x="176.276" y="193.675" size="1.778" layer="95"/>
@@ -23944,40 +23916,20 @@ original design by Émilie Gillet</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="127" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="124.46" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="124.46" x2="198.12" y2="127" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="124.46" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="127" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="124.46" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="124.46" x2="170.18" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="124.46" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="124.46" x2="208.28" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="124.46" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="124.46" x2="208.28" y2="127" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="124.46" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="124.46" x2="218.44" y2="127" width="0.1524" layer="91"/>
-<junction x="177.8" y="124.46"/>
-<junction x="187.96" y="124.46"/>
 <junction x="198.12" y="124.46"/>
 <junction x="208.28" y="124.46"/>
-<junction x="218.44" y="124.46"/>
 <pinref part="C26" gate="G$1" pin="2"/>
 <pinref part="C27" gate="G$1" pin="1"/>
 <pinref part="GND62" gate="1" pin="GND"/>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="266.7" y1="121.92" x2="276.86" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="121.92" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="E" pin="GND"/>
-<pinref part="GND63" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="AREF_-10" class="0">
@@ -24059,38 +24011,20 @@ original design by Émilie Gillet</text>
 <pinref part="IC6" gate="P" pin="V-"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="114.3" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="111.76" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="111.76" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="111.76" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="114.3" x2="187.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="114.3" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="114.3" x2="208.28" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="114.3" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="111.76" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="111.76" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="111.76" x2="259.08" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="116.84" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="116.84" x2="238.76" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="116.84" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="116.84" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="109.22" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<junction x="198.12" y="111.76"/>
-<junction x="187.96" y="111.76"/>
 <junction x="208.28" y="111.76"/>
-<junction x="218.44" y="111.76"/>
 <junction x="233.68" y="111.76"/>
-<junction x="238.76" y="111.76"/>
 <junction x="243.84" y="111.76"/>
-<junction x="248.92" y="111.76"/>
 <pinref part="C27" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="2"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<pinref part="IC4" gate="E" pin="V-"/>
 <pinref part="IC5" gate="P" pin="V-"/>
 <pinref part="IC8" gate="P" pin="V-"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VEE"/>
@@ -24156,38 +24090,20 @@ original design by Émilie Gillet</text>
 <pinref part="IC6" gate="P" pin="V+"/>
 </segment>
 <segment>
-<wire x1="177.8" y1="134.62" x2="177.8" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="137.16" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="137.16" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="134.62" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="134.62" x2="198.12" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="134.62" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="134.62" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="137.16" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="137.16" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="137.16" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="248.92" y1="137.16" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="137.16" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="132.08" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="132.08" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="132.08" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="132.08" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="139.7" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<junction x="187.96" y="137.16"/>
-<junction x="198.12" y="137.16"/>
 <junction x="208.28" y="137.16"/>
-<junction x="218.44" y="137.16"/>
-<junction x="248.92" y="137.16"/>
 <junction x="243.84" y="137.16"/>
-<junction x="238.76" y="137.16"/>
 <junction x="233.68" y="137.16"/>
 <pinref part="C26" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="E" pin="V+"/>
 <pinref part="IC5" gate="P" pin="V+"/>
 <pinref part="IC8" gate="P" pin="V+"/>
 <pinref part="P+1" gate="1" pin="VCC"/>
@@ -24196,11 +24112,6 @@ original design by Émilie Gillet</text>
 <wire x1="149.86" y1="142.24" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="1" pin="VCC"/>
-</segment>
-<segment>
-<wire x1="269.24" y1="139.7" x2="269.24" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="P+5" gate="1" pin="VCC"/>
 </segment>
 </net>
 <net name="AREF_+10" class="0">
@@ -24267,17 +24178,28 @@ original design by Émilie Gillet</text>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$86" class="0">
-<segment>
-<wire x1="266.7" y1="127" x2="269.24" y2="127" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="127" x2="269.24" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="E" pin="MODE"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-</segment>
-</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,3,139.7,137.16,IC3E,V+,VCC,,,"/>
+<approved hash="104,3,139.7,116.84,IC3E,V-,VEE,,,"/>
+<approved hash="104,3,114.3,134.62,IC6P,V+,VCC,,,"/>
+<approved hash="104,3,114.3,119.38,IC6P,V-,VEE,,,"/>
+<approved hash="104,3,129.54,134.62,IC7P,V+,VCC,,,"/>
+<approved hash="104,3,129.54,119.38,IC7P,V-,VEE,,,"/>
+<approved hash="104,3,243.84,132.08,IC5P,V+,VCC,,,"/>
+<approved hash="104,3,243.84,116.84,IC5P,V-,VEE,,,"/>
+<approved hash="104,3,248.92,132.08,IC8P,V+,VCC,,,"/>
+<approved hash="104,3,248.92,116.84,IC8P,V-,VEE,,,"/>
+<approved hash="113,1,130.071,89.431,FRAME3,,,,,"/>
+<approved hash="113,2,130.071,89.431,FRAME4,,,,,"/>
+<approved hash="113,3,71.12,204.226,L2,,,,,"/>
+<approved hash="113,3,66.04,194.066,L1,,,,,"/>
+<approved hash="113,3,163.091,152.931,FRAME2,,,,,"/>
+<approved hash="113,1,174.583,55.9477,J2,,,,,"/>
+<approved hash="113,1,174.583,43.2477,J1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

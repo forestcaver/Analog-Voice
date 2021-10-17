@@ -210,21 +210,24 @@ Strictly for non-commercial use:
 - - - -
 
 ## Planned Modules ##
-### Testing ###
-- matrix mixer - 14hp, 4x4, uni-/bipolar selectable per column (ie all pots in column are attenuators or attenuverters). Switch to select whether inputs are normalled to a precision voltage (either 5v or 10v, selectable with a jumper on the back of the module).
+### Completed - not yet uploaded ###
+- TZFM VCO (8hp, ssi2130-based) + 8hp expander
 
 ### In Design and Prototyping ###
+- Serge volatage-controlled slew (testing now)
+- MIDI Thru box
+- Contact mic preamp
+- Quad digital lfo and envelope generator
 - vca (3360)
 - vcadsr (3310)
-- tzfm 3340 vco (currently being breadboarded)
-- 2-sections of blinds in 4hp
 - Wavefolder
 - Distortion module
+- Delay module
+- Updated Benjolin
 
 ### Planned ###
-- envelope generator (dusg)
 - quad adsr (3310)
-- Either lfo or looping envelope generator (unsure which yet)
+
 
 
 Licence: CC-BY-NC-SA 4.0, unless otherwise stated in the individual repositories
