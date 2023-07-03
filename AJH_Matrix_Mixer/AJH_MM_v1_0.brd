@@ -82,7 +82,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -92,12 +95,17 @@
 <layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
 <layer number="133" name="Ports" color="7" fill="1" visible="no" active="yes"/>
 <layer number="134" name="Port2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="135" name="Port3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="7" fill="1" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -159,6 +167,9 @@
 <wire x1="69.925" y1="117.665" x2="69.925" y2="-10.985" width="0.1524" layer="255"/>
 <wire x1="69.925" y1="-10.985" x2="-0.725" y2="-10.985" width="0.1524" layer="255"/>
 <text x="62.865" y="103.505" size="1.778" layer="52" rot="MR0">Matrix Mixer v1.0, copyright forestcaver 2021</text>
+<wire x1="7.8486" y1="0.9017" x2="1.4986" y2="0.9017" width="0.4064" layer="22"/>
+<text x="8.73125" y="0.47625" size="1.016" layer="22" font="vector" rot="MR180" align="top-left">Red stripe</text>
+<text x="0.635" y="1.74625" size="1.016" layer="22" rot="MR90">-12v</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -1815,7 +1826,7 @@ chip</description>
 <attribute name="VALUE" x="13.0175" y="17.78" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="JP100" library="og-header" package="AVR_ICSP" value="M05X2PTH" x="4.7625" y="8.5725" smashed="yes" rot="MR0">
-<attribute name="NAME" x="0.889" y="7.01675" size="0.8128" layer="26" font="vector" rot="MR90"/>
+<attribute name="NAME" x="5.5245" y="15.494" size="0.8128" layer="26" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="7.5565" y="8.3185" size="0.4064" layer="28" font="vector" rot="MR90"/>
 </element>
 <element name="R132" library="resistor" package="R0603" value="10k" x="15.24" y="15.875" smashed="yes" rot="MR90">
