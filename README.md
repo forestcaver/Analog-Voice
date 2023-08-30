@@ -142,7 +142,6 @@ SMT module tester module with four added precision voltage outputs (set with tri
 
 ## Dual polarising VCA ##
 
-![2B](https://github.com/forestcaver/Analog-Voice/blob/master/images/2B_01.jpg)
 
 4hp
 
